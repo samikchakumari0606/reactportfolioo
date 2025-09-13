@@ -1,5 +1,13 @@
 import React from 'react'
 import "./Contact.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// Email (envelope) icon comes from free-solid-svg-icons
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+// LinkedIn icon comes from free-brands-svg-icons
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+
+
+
 
 
 const Contact = () => {
@@ -30,6 +38,9 @@ const Contact = () => {
     return (
         <div id="contact" className='contact'>
 
+
+
+   
             <div className="contact-title">
                 <h1>Get in touch</h1>
             </div>
@@ -43,11 +54,15 @@ const Contact = () => {
                     <div className="contact-details">
 
                         <div className="contact-detail">
-                         mail    <p>samikchaprasad0606@gmail.com</p>
+                          <FontAwesomeIcon icon={faEnvelope} size="1x" style={{ marginRight: '10px' }} />
+
+                          <a href="#" className="icon">samikchaprasad0606@gmail.com</a>
+                          <p></p>
                         </div>
 
                          <div className="contact-detail">
-                            linkedIn icon <p>LinkedIn address</p>
+                            <FontAwesomeIcon icon={faLinkedin} size="1x" />
+                             <a className="icon" href="www.linkedin.com/in/samiksha-kumari-31b578216">LinkedIn</a>
                         </div>
 
                     </div>

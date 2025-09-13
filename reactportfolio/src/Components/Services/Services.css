@@ -28,11 +28,11 @@
     flex-direction: column;
     justify-content: center;
     gap:20px;
-    padding: 60px;
+    padding: 30px;
     border-radius: 10px;
     border: 2px solid white;
     transition: 0.4s;
-    cursor: pointer;
+    cursor: pointer; 
 }
 .services-format h3{
     font-size: 28px;

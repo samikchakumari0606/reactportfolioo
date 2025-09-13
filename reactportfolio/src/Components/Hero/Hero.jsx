@@ -8,13 +8,15 @@ const Hero = () => {
          {/* <h1>myImage</h1> */}
 
          <h1> <span>Hii I am Samiksha,</span> frontend developer based in INDIA.</h1>
-         <p>I am a frontend developer from India, with 2 years of experince </p>
+         <p> Trained 100+ interns, previously Technical Trainer at Shanti InfoSoft, specializing in mentoring, skill development, and practical technology training </p>
     
          <div className="hero-action">
             <div className="hero-connect">
                <AnchorLink className="anchor-link" offset={50} href="#contact">Connect With Me</AnchorLink>
               </div>
-            <div className="hero-resume">My resume</div>
+            <div className="hero-resume">My resume
+              <a href=""></a>
+            </div>
          </div>
     </div>
   )

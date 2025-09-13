@@ -24,10 +24,10 @@ const Navbar = () => {
   return (
     <div className="navbar">
 
-     <h1>logo</h1>
+     <h1>Welcome</h1>
     <img src={menu_open} onClick={openMenu} alt="" className='nav-mob-open' />
 
-     <ul ref={menuRef}  className="nav-menu">
+     <ul ref={menuRef}   className="nav-menu">
 
        <img src={menu_close} onClick={closeMenu} alt="myclosebutton" className='nav-mob-close'  />
        
@@ -37,8 +37,8 @@ const Navbar = () => {
           {menu==='About me'?<hr/>:""}</li>
         <li><AnchorLink className="anchor-link" offset={50} href="#services"> <p onClick={()=>setMenu("Services")}>Services</p> </AnchorLink>
          {menu==='Services'?<hr/>:""}</li>
-        <li><AnchorLink className="anchor-link" offset={50} href="#portfolio"> <p onClick={()=>setMenu("Portfolio")}>Portfolio</p> </AnchorLink>
-         {menu==='Portfolio'?<hr/>:""}</li>
+        <li><AnchorLink className="anchor-link" offset={50} href="#projects"> <p onClick={()=>setMenu("Portfolio")}>Projects</p> </AnchorLink>
+         {menu==='Projects'?<hr/>:""}</li>
         <li><AnchorLink className="anchor-link" offset={50} href="#contact"><p onClick={()=>setMenu("Contact")}>Contact</p> </AnchorLink>
           {menu==='Contact'?<hr/>:""}</li>
      </ul>

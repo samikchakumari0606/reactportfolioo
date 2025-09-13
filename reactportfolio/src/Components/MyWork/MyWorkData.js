@@ -1,21 +1,18 @@
 const myWorkData=[
     {
         w_no:1,
-        w_name:"E-commerce",
-        w_image:"project_image",
-        w_link:"http://Ecomercer.netlify"
+        w_name:"youtube",
+        w_link:"http://reactyoutube-virid.vercel.app/"
+    },
+     {
+        w_no:1,
+        w_name:"Food App",
+        w_link:"https://reactfood-henna.vercel.app/"
     },
      {
         w_no:1,
         w_name:"E-commerce",
-        w_image:"project_image",
-        w_link:"http://Ecomercer.netlify"
-    },
-     {
-        w_no:1,
-        w_name:"E-commerce",
-        w_image:"project_image",
-        w_link:"http://Ecomercer.netlify"
+        w_link:"https://e-comreact.vercel.app/"
     }
 
 ]

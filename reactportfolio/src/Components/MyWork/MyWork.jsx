@@ -4,20 +4,18 @@ import myWorkData from './MyWorkData'
 
 const MyWork = () => {
   return (
-    <div id="work"  className='mywork'>
+    <div id="projects"  className='mywork'>
        <div className="mywork-title">
         <h1>My latest work</h1>
-        <h1>theme image</h1>
        </div>
 
        <div className="mywork-container">
         {
-            myWorkData.map((item,index)=>{
+            myWorkData.map((item)=>{
               return(
-                 <div key={item.w_no}>
-                    <img src={item.w_image} alt="" />
-                    <h3>{item.w_name}</h3>
-                    <h2>{item.w_link}</h2>
+                 <div key={item.w_no} className='mywork-format'>
+                    <h2>{item.w_name}</h2>
+                      <a className='project-link' href={item.w_link}>Project Source</a>
                 </div>
               )
             })
